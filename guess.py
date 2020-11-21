@@ -1,6 +1,11 @@
 import random
+start = input('選一個開始值：')
+end = input('選一個結束值：')
+start = int(start)
+end = int(end)
+
 count = 0
-r = random. randint(1, 100)
+r = random. randint(start, end)
 while True:
 	count = count +1
 	num = input('猜個數字：')
